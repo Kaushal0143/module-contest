@@ -1,0 +1,128 @@
+#nav-bar {
+  margin-right: 70px;
+  box-sizing: border-box;
+}
+.logo {
+  margin-left: 60px !important;
+}
+.my-menubar > ul {
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 8px;
+  text-align: left;
+}
+.my-menubar > ul > li {
+  display: inline-block;
+  margin-inline: 15px;
+  margin-left: 10px;
+  align-items: center;
+  color: var(--Gray-2, #4f4f4f);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%; /* 24.8px */
+  letter-spacing: 0.16px;
+}
+#my-button {
+  margin-right: 20px;
+  color: var(--primaryskyblue, #2f80ed);
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+#hero-section {
+  width: 100vw;
+  height: 80vh;
+  margin-top: 0px;
+}
+.left-section {
+  width: 30vw;
+  height: 10vh;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.cta-form {
+  width: 320px;
+  height: 370px;
+  flex-shrink: 0;
+  display: inline-flex;
+  text-align: center;
+  margin-right: 80px;
+  margin-top: 40px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+.arrow {
+  width: 129.105px;
+  height: 101.452px;
+  flex-shrink: 0;
+}
+.my-input-form {
+  flex-direction: column;
+  align-items: center;
+}
+.my-input-form > div {
+  border-radius: 8px;
+  background: #fafafa;
+  width: fit-content;
+}
+
+.my-input-form > div > input {
+  border: none;
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+}
+.my-btn {
+  /* color: var(--WHITE, #fff); */
+  font-family: ABeeZee;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  color: white !important;
+  border-radius: 8px;
+  background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+}
+h4 {
+  color: var(--BLACK, #2b2f34);
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.48px;
+  padding: 20px;
+}
+.top-section > p {
+  color: #818d9d;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+#term-condition {
+  margin-top: 10px;
+  color: #818d9d;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+span {
+  text-align: center;
+  color: var(--primaryskyblue, #2f80ed);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
